@@ -1,0 +1,42 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'graf' ;
+    src: url('fontes/g1.otf') format('opentype'), url('fontes/g2.ttf') format('truetype');
+}
+
+:root {
+    --cor0: #CB70FF;
+    --cor1: #A200FF;
+    --cor2: #8E39BF;
+    --cor3: #7100B3;
+    --cor4: #540085;
+    --cor5: #180133;
+
+    --fonte-destaque: 'graf', arial, sans-serif;
+}
+
+body{
+    background-image: url(imagens/shiro3.png);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+img {
+    width:250px;
+    box-shadow: 10px 10px 10px #540085;
+}
+
+img:hover {
+    box-shadow: 10px 10px 10px #A200FF;
+    transition: 1s;
+}
+
+
+
+h1 {
+    text-shadow: 2px 2px 2px white;
+    color: var(--cor4);
+    font-family:var(--fonte-destaque);
+}
