@@ -40,3 +40,9 @@ h1 {
     color: var(--cor4);
     font-family:var(--fonte-destaque);
 }
+
+p {
+    color: #180133;
+    font-family: var(--fonte-destaque);
+    font-size: 5em;
+}
