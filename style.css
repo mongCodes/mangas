@@ -25,11 +25,11 @@ body{
 
 img {
     width:250px;
-    box-shadow: 10px 10px 10px #540085;
+    box-shadow: 10px 10px 10px #540085a9;
 }
 
 img:hover {
-    box-shadow: 10px 10px 10px #A200FF;
+    box-shadow: 10px 10px 10px #b83effc5;
     transition: 1s;
 }
 
