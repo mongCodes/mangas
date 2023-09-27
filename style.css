@@ -17,7 +17,8 @@
 }
 
 body{
-    background-image: url(imagens/shiro3.png);
+    background-image: url(imagens/shiro.png);
+    background-position: top right;
     background-size: cover;
     height: 100%;
     text-align: center;
