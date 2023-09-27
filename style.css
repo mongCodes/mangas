@@ -17,8 +17,8 @@
 }
 
 body{
+    height: 98vh;
     background-image: url(imagens/shiro.png);
-    background-position: top right;
     background-size: cover;
     height: 100%;
     text-align: center;
