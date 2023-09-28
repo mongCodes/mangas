@@ -17,20 +17,29 @@
 }
 
 body{
-    height: 98vh;
+    height: 100vh;
     background-image: url(imagens/shiro.png);
     background-size: cover;
-    height: 100%;
+    text-align: center center;
+}
+h1 {
     text-align: center;
+}
+main {
+    background-color: #18013300;
+    width: 250px;
+    height: 250px;
+    margin: auto;
 }
 
 img {
     width:250px;
-    box-shadow: 10px 10px 10px #540085a9;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px #740bb1a9;
 }
 
 img:hover {
-    box-shadow: 10px 10px 10px #b83effc5;
+    box-shadow: 10px 10px 10px #a042d6ea;
     transition: 1s;
 }
 
