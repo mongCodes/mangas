@@ -18,11 +18,10 @@
 
 body{
     height: 97vh;
-    background-image: url(imagens/shiro.png);
+    background:black url(imagens/) no-repeat center top fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
+    }
+
 h1 {
     text-align: center;
 }
