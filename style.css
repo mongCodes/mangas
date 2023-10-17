@@ -22,8 +22,7 @@ body{
     }
 
 h1 {
-    width: 15vw;
-    height: 15vh;
+    font-size: 4vw;
     text-align: center;
 }
 main {
@@ -48,8 +47,8 @@ img:hover {
 
 
 h1 {
-    text-shadow: 2px 2px 2px white;
-    color: var(--cor4);
+    text-shadow: 2px 2px 2px var(--cor5);
+    color: var(--cor2);
     font-family:var(--fonte-destaque);
 }
 
