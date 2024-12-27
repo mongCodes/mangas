@@ -60,6 +60,8 @@ a {
     margin-bottom: 10px;
 }
 
+a.i2:hover {background-color: #ffd700;}
+
 
 
  /*main {
@@ -79,7 +81,17 @@ img {
 
 img:hover {
     box-shadow: #540085 1px 1px 1px;
-    box-shadow: 0px 0px 10px #51ff00;
+    box-shadow: 0px 0px 10px;
+    transition: 1s;
+}
+
+img.i1:hover {
+    box-shadow: 0px 0px 10px #52ff2f;
+    transition: 1s;
+}
+
+img.i2:hover {
+    box-shadow: 0px 0px 10px #ffd700;
     transition: 1s;
 }
 
