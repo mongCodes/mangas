@@ -43,7 +43,11 @@ header {
 h1 {
     text-align: center;
     font-size: 3em;
+}
 
+h1 {
+    text-shadow: 2px 2px 5px var(--cor5);
+    color: var(--cor2);
 }
 
     
@@ -97,7 +101,3 @@ img.i2:hover {
 
 
 
-h1 {
-    text-shadow: 2px 2px 5px var(--cor5);
-    color: var(--cor2);
-}
